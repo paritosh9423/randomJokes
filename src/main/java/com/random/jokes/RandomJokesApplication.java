@@ -1,6 +1,5 @@
 package com.random.jokes;
 
-import Service.FetchJoke;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,12 +1,10 @@
-package Controller;
+package com.random.jokes.controller;
 
-import Service.FetchJoke;
+import com.random.jokes.service.FetchJoke;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import javax.xml.ws.RequestWrapper;
 
 @Controller
 public class UIController {
